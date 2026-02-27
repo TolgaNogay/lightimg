@@ -2,7 +2,7 @@
 
 A lightweight, framework-agnostic CLI tool that converts and optimizes your images to **WebP** format. Perfect for Next.js, Astro, Go, or any other web project where performance matters.
 
-[![npm version](https://img.shields.io/npm/v/lightimg.svg)](https://www.npmjs.com/package/lightimg)
+[![npm version](https://img.shields.io/npm/v/@tolganogayy/lightimg.svg)](https://www.npmjs.com/package/@tolganogayy/lightimg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## 🚀 Features
@@ -19,13 +19,13 @@ A lightweight, framework-agnostic CLI tool that converts and optimizes your imag
 You can run it instantly without installation:
 
 ```bash
-npx lightimg
+npx @tolganogayy/lightimg
 ```
 
 Or install it globally for frequent use:
 
 ```bash
-npm install -g lightimg
+npm install -g @tolganogayy/lightimg
 ```
 
 ## 🛠️ Usage

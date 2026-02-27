@@ -1,21 +1,43 @@
 {
-  "name": "lightimg",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "@tolganogayy/lightimg",
+  "version": "1.0.1",
+  "description": "A framework-agnostic CLI tool for optimizing images to WebP.",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "dev": "tsx src/index.ts",
     "start": "node dist/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "npm run build"
   },
-  "keywords": [],
-  "author": "",
   "type": "module",
   "bin": {
-    "lightimg": "./dist/index.js"
+    "lightimg": "dist/index.js"
   },
-  "license": "ISC",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "image",
+    "optimize",
+    "webp",
+    "cli",
+    "nextjs",
+    "astro",
+    "performance"
+  ],
+  "author": "Tolga Nogay",
+  "license": "MIT",
+  "homepage": "https://github.com/TolgaNogay/lightimg#readme",
+  "bugs": {
+    "url": "https://github.com/TolgaNogay/lightimg/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TolgaNogay/lightimg.git"
+  },
   "dependencies": {
     "@clack/prompts": "^1.0.1",
     "cac": "^6.7.14",
