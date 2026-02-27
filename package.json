@@ -1,0 +1,32 @@
+{
+  "name": "lightimg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "type": "module",
+  "bin": {
+    "lightimg": "./dist/index.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@clack/prompts": "^1.0.1",
+    "cac": "^6.7.14",
+    "fast-glob": "^3.3.3",
+    "picocolors": "^1.1.1",
+    "sharp": "^0.34.5"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.2",
+    "@types/sharp": "^0.31.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
