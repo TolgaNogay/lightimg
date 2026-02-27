@@ -1,6 +1,6 @@
 {
   "name": "@tolganogayy/lightimg",
-  "version": "1.0.1",
+  "version": "0.0.1",
   "description": "A framework-agnostic CLI tool for optimizing images to WebP.",
   "main": "dist/index.js",
   "scripts": {
